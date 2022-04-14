@@ -4,6 +4,7 @@
     <title>اَربي ملياۻم</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <meta name="description" content="An web keyboard for arabi malayalam language.">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet"> 
@@ -12,7 +13,7 @@
     <div id="app">
         <div class="container">
             <div class="jumbotron">
-                <h1> അറബി മലയാളം </h1>
+                <h2> അറബി മലയാളം (اَربي ملياۻم)</h2>
                 <Screen></Screen>
                 <Keyboard 
                     :numerals="numerals"
@@ -28,7 +29,7 @@
 
     <template id="screen">
         <div id="screen-component">
-        <textarea placeholder="...Waiting for input" readonly dir="rtl" class="form-control" rows="5" autofocus>{{letters}}</textarea>
+        <textarea placeholder="" readonly dir="rtl" class="form-control" rows="5" autofocus>{{letters}}</textarea>
         </div>
     </template>
 
